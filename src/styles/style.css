@@ -1,0 +1,130 @@
+*{
+    background-color: beige;
+    margin: 0;
+    padding: 0
+}
+.navbar{
+    background-color: olivedrab;
+    color: black;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+
+}
+.links{
+    display: flex;
+    gap: 2rem;
+    padding: 2rem;
+    font-size: xx-large;
+    font-weight: 800;
+    font-style: oblique; 
+    justify-content: right;
+}
+.footer{
+        background-color: olivedrab;
+        justify-content: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-top: 10px;
+        color: black;
+        width: 100%;
+     }
+     .socials svg{
+        color: black;
+        margin: 20px;
+        font-size: 70px;
+        cursor: pointer;
+     }
+     .home{
+        text-align: left;
+    }
+    .clm{
+        width: 30%;
+    }
+    .designs {
+        display: flex;
+    }
+    .images{
+        font-size: large;
+        font-weight: 700;
+    
+    }
+    .about{
+        text-align: center;
+    }
+    .aboutBottom{
+        display: flex;
+        flex-direction: column;
+        height: 55%;
+        align-items: center;
+        margin-top: 50px;
+
+    }
+.contact{
+    text-align: center;
+}
+.wrapper{
+    width: 420px;
+    background-color: black;
+    color: black;
+}
+.wrapper h1{
+    font-size: 35px;
+    text-align: center;
+
+}
+.wrapper .input-box{
+    box-sizing: content-box;
+    width: 50%;
+    height: 50px;
+    margin: 20px 0;
+
+}
+.input-box input{
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    border: 2px solid rgba(255, 255, 255, .2);
+    border-radius: 40px ;
+
+
+}
+.input-box input::placeholder{
+    color: black;
+
+}
+.a{
+        color: olivedrab;
+    }
+
+.wrapper .remember.forgot{
+    display: flex;
+    justify-content: space-between;
+    font-size: large;
+    margin: -15px 0 15px ;
+    color: white;
+
+}
+.wrapper .btn{
+    width: 50%;
+    height: 40px;
+    background-color: whitesmoke;
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    cursor: pointer;
+}
+.img-1{
+    text-align: center;
+}
+.img-2{
+    text-align: center;
+}
+.img-3{
+    text-align: end;
+}
+    
+    
