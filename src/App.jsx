@@ -3,8 +3,9 @@ import './styles/style.css';
 
 function App() {
   return (
-  
+    <>
     <BaseRouter />
+    </>
 
   );
 }

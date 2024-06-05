@@ -1,7 +1,6 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
-import { publicLinks } from '../constants/Links'
 import '../styles/style.css'
+import Slider from '../components/Slide'
 import Image  from '../assets/images/bedroomsetting.jpeg'
 import myimage from '../assets/images/design.jpeg'
 import  myimage1  from '../assets/images/kitchen setup.jpeg'
@@ -10,13 +9,10 @@ import mydesign2 from '../assets/images/design3.jpeg'
 function Landing() {
   return (
     <div >
-      <div className='links'>
-      <Link to={publicLinks?.About}>About</Link>
-      <Link to={publicLinks?.Team}>Team</Link>
-      <Link to={publicLinks?.Contact}>Contact</Link>
-      </div>
     <div className='home'>
-    <h1><i>AUTHENTIC INTERIOR DESIGN</i></h1>
+    <h1><i>AUTHENTIC INTERIOR DESIGN</i></h1> 
+        <Slider/>
+
        <h2>Welcome to our official website. </h2>
         <p>We are glad that you chose us to design and <br />
         re-establish your house design to your  liking.</p> 

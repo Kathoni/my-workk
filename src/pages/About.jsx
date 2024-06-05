@@ -1,11 +1,14 @@
 
-import Class from '../assets/images/about.jpeg'
 import Myimage from '../assets/images/banner.jpeg'
+import Ours from '../assets/images/ourabout.jpeg'
 function About() {
   return (
     <div>
+      <div className='myabout'><img src={Ours}  /><br /></div>
     <div className='about'>
-    <div className='about'><img src={Class} /></div>
+    <div className='container'>
+      <div className='card'>
+        <div className='card-shadow'>
     <h1>About us</h1> 
     <h2>We are a world operating company ;</h2>
     <p>We offer services based on any geographical <br />
@@ -16,6 +19,30 @@ function About() {
       we have been able to satisfy them with our unique and <br/>
       designs.
     </p>
+    </div>
+    </div>
+  
+    </div>
+    <div className='container'>
+      <div className='card'>
+        <div className='card-shadow'>
+    <h1>About our services</h1> 
+    <h3>We offer a wide variety of serviced it just depends on what you want.</h3>
+    <h4> Here are some of the things we offer;</h4>
+    <div className='List'>
+      <ul>
+        <li>Wallpaper installation.</li>
+        <li>Kitchen makeover</li>
+        <li>Bedroom design</li>
+        <li>Living room design</li>
+        <li>Office design</li>
+        <li>Studio appartment design</li>
+      </ul>
+      <h4>Our list is endless but we assure you we meet our clients expectations.</h4>
+    </div>
+    </div>
+    </div>
+    </div>
     <div>
     <img src={Myimage}/>
     </div>
