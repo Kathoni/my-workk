@@ -13,21 +13,21 @@ function Landing() {
     <h1><i>AUTHENTIC INTERIOR DESIGN</i></h1> 
         <Slider/>
 
-       <h2>Welcome to our official website. </h2>
+      <h2>Welcome to our official website. </h2>
         <p>We are glad that you chose us to design and <br />
         re-establish your house design to your  liking.</p> 
         <h1>Here are some of the amazing samples we offer;</h1>
-    </div>
-    <div className='row'>
-    <div className='designs'>
-     <div className='clm'>
-   <img src={Image}/>
-   </div>
-   <div className='clm'>
-   <img src={myimage}/>
-   </div>
-   <div className='clm'>
-   <img src={myimage1}/>
+       </div>
+         <div className='row'>
+           <div className='designs'>
+              <div className='clm'>
+                 <img src={Image}/>
+                      </div>
+        <div className='clm'>
+                  <img src={myimage}/>
+                      </div>
+        <div className='clm'>
+     <img src={myimage1}/>
    </div>
    
    </div>
