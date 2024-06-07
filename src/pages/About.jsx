@@ -1,6 +1,5 @@
 import React from "react";
 import Myimage from "../assets/images/banner.jpeg";
-import Ours from "../assets/images/ourabout.jpeg";
 
 function About() {
   return (

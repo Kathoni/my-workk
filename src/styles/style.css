@@ -1,74 +1,13 @@
 *{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
     font-family: 'Times New Roman', Times, serif;
     font-size: 800;
-    color: #000;
 }
-.navbar{
-    background-color: olivedrab;
-    justify-content: space-between;
-    display: flex;
-    align-items: center;
-    color: #000;
-}
-.navbar .mylinks{
-    display: flex;
-    gap: 2rem;
-    font-size: 300;
-    font-weight: 800;
-    font-style: normal; 
-    justify-content: right;
-    color: #000;
-}
-.footer{
-        background-color: olivedrab;
-        justify-content: center;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        padding-top: 10px;
-        color: black;
-        width: 100%;
-     }
-     .socials svg{
-        color: black;
-        margin: 20px;
-        font-size: 70px;
-        cursor: pointer;
-     }
+
      .home{
         text-align: center;
     }
-    .clm{
-        width: 30%;
-    }
-    .designs {
-        display: flex;
-    }
-    .images{
-        font-size: large;
-        font-weight: 700;
-    
-    }
-    .about{
-        text-align: center;
-    }
-    .aboutBottom{
-        display: flex;
-        flex-direction: column;
-        height: 55%;
-        align-items: center;
-        margin-top: 50px;
+  
 
-    }
-.contact{
-    font-style: oblique;
-    font-weight: 800;
-    font-size: xx-large;
-    text-align: center;
-}
 .img-1{
     text-align: center;
 }
@@ -78,54 +17,9 @@
 .img-3{
     text-align: end;
 }
-.img-box img {
-    width: 20%;
-  }  
-  .clientcontainer {
-    margin-bottom: 40px;
-    padding-right: 30%;
-  }    
-  .box {
-    box-shadow:rgb(220, 220, 44) 0 0 10px;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-align: end;
-        -ms-flex-align: end;
-            align-items: flex-end;
-    padding: 0 150px 0 15px;
-  }
-.img-box {
-    width: 100px;
-    min-width: 100px;
-    padding: 0 15px;
-    -webkit-box-flex: 0;
-        -ms-flex: 0 0 175px;
-            flex: 0 0 175px;
-            box-shadow: rgb(224, 224, 27) 0 0 10px;
-  }
-  .img-box img {
-    width: 100%;
-    margin-right: 20px;
-  }
-  .detail-box {
-    margin-top: 45px;
-  }
-  .carousel-indicators {
-    position: cover;
-    right: 0;
-    left: 0;
-    z-index: 15;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    padding-left: 0;
-    margin-right: 15%;
-    margin-left: 15%;
-    list-style: none;
+
+  .contact{
+    text-align: center;
   }
   .card{
     margin-bottom: 60px;
@@ -136,11 +30,14 @@
     align-items: center;
 
   }
-  .card-shadow{
-    box-shadow: rgb(220, 220, 44) 0 0 10px;
-  }
   .myabout{
     text-align: center;
+  }
+  .navbar{
+    text-align: center;
+    margin-bottom: 0px;
+    margin-top: 0px;
+
   }
   
  

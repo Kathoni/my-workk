@@ -1,5 +1,7 @@
 import React from 'react'
 import Hilda from '../assets/images/testimonial.jpeg'
+import Daisy from '../assets/images/testimonial2.jpeg'
+import Damaris from '../assets/images/testionial3.jpeg'
 
 function Contact() {
   return (
@@ -14,66 +16,109 @@ function Contact() {
         <div className='clientcontainer'>
         <h2>Our clients testimonies matter to us; </h2>
         <div className='container'>
-      <div className='card'>
-        <div className='card-shadow'>
-        <h2>
-        "Testimonial from"
-                </h2>
-              </div>
-                    <div className="box">
-                      <div className="img-box">
-                        <img src={Hilda}/>
+        <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <div className="row">
+                  <div className="col-lg-4">
+                    <div className="card">
+                      <div className="boxfront">
+                        <img src={Hilda} alt="image" />
+                         <h2>Hilda</h2>
+                          <span className='fa fa-quote-left'></span>
+                          <p>Im happy to have worked with such a competent group. They have such wonderfull
+                            collaboration nature and a lot of experience. I would highly recommend them for any project youd like.
+                            KUDOSS !!!
+                          </p>
                       </div>
-                      <div className="detail-box">
-                        <h4>
-                          Hilda Anyango
-                        </h4>
-                        <p>
-                          This is one of the companies where employees' welfare is on  first place. I believe all of the employees really value that.” “I want to praise this company for coming up with the my studio design appartment that I have always looked forward to having .
-                          As much as it is a great company and not  branding or anything they outdid themselves and they deserve a thumbs up.
-                          Thank you so much for delivering!!!"
-                        </p>
+
+                </div>
+     
+     </div>
+            <div className="col-lg-4">   
+                    <div className="card">
+                      <div className="boxfront">
+                        <img src={Damaris} alt="image" />
+                         <h2>Damaris</h2>
+                          <span className='fa fa-quote-left'></span>
+                          <p>
+                            I have been working with them for 3 years. They are very professional. I would highly recommend them. 
+                            They have good communication skills and they are very helpful.They get your project done on time.
+                          </p>
+                         </div>
+                      </div>
+                    
+      
+    </div>
+            <div className="col-lg-4">
+                    <div className="card">
+                      <div className="boxfront">
+                        <img src={Daisy} alt="image" />
+                         <h2>Daisy</h2>
+                          <span className='fa fa-quote-left'></span>
+                          <p>
+                            Im lucky to have worked with such a self-driven company. They did their work right on time and gave out quality result.
+                            I would highly recommend them to guys out there with unique ideas for their homes.
+                          </p>
                       </div>
                     </div>
-                  </div>
-                </div>
-                <section className="section">
-                  <div className='container'>
-                     <div className='card shadow'>
-                      <div className='card-body'>
-                        <div className='row'>
-                          <div className='col-md-20'>
-                            <h6>Get in touch</h6><br />
-                            <div className='form-group'>
-                              <label className='nb-1' htmlFor="">  Full Name</label>
-                              <input type="text" className='form-control' placeholder='Enter full name'/>
-                            </div>
-                            <div className='form-group'>
-                              <label className='nb-1' htmlFor="">  Phone number</label>
-                              <input type="number" className='form-control' placeholder='Enter phone number'/>
-                            </div>
-                            <div className='form-group'>
-                              <label className='nb-1' htmlFor=""> Email address </label>
-                              <input type="email" className='form-control' placeholder='Enter email'/>
-                            </div>
-                            <div className='form-group'>
-                              <label className='nb-1' htmlFor="">  Message</label>
-                               <textarea rows='3'  className='form-control' placeholder='Type your message....'></textarea>
-                            </div>
-                            <div className='form-group'>
-                               <button type='submit'   className='btn btn-primary shadow' > Send message</button>
-                            </div>
-                            
-                            
-                            
+                 </div>
+              </div>
+            </div>
+        </div>
 
+                <section className="section">
+                   <div className='container'>
+                     <div className='card'>
+                       <form class="row g-3" style={{backgroundColor:"beige"}}>
+                         <div class="col-md-4">
+                            <label for="inputEmail4" class="form-label">Email</label>
+                              <input type="email" class="form-control" id="inputEmail4"/>
                       </div>
+                          <div class="col-md-4">
+                             <label for="inputPassword4" class="form-label">Password</label>
+                               <input type="password" class="form-control" id="inputPassword4"/>
+                       </div>
+                          <div class="col-12">
+                             <label for="inputAddress" class="form-label">PHONE NUMBER</label>
+                              <input type="number" class="form-control" id="inputPhone" placeholder="07***34556"/>
                       </div>
-                      </div>  
-                     </div>
-                  </div>
-                </section>
-                </div>
+                    <div class="col-12">
+                        <label for="inputAddress2" class="form-label">Address </label>
+                          <input type="text" class="form-control" id="inputAddress2" placeholder="Apartment, studio, or floor"/>
+                       </div>
+                    <div class="col-md-4">
+                         <label for="inputCity" class="form-label">City</label>
+                           <input type="text" class="form-control" id="inputCity"/>
+                        </div>
+                     <div class="col-md-4">
+                         <label for="inputState" class="form-label">State</label>
+                             <select id="inputState" class="form-select">
+                               <option selected>Choose...</option>
+                                  <option><ul><li>KENYA</li>
+                      </ul>     
+                </option>
+            </select>
+  </div>
+          <div class="col-12">
+    <div class="form-check">
+      <input class="form-check-input" type="checkbox" id="gridCheck"/>
+      <label class="form-check-label" for="gridCheck">
+        TRY US 
+      </label>
+    </div>
+  </div>
+         <div class="col-12">
+                   <button type="submit" class="btn btn-primary">REGISTER NOW</button>
+                         </div>
+                      </form>
+                    </div>
+                   </div>
+                 </section>
+               </div>
+             </div>
+         </div>
+                
     </div>
 
   )

@@ -1,37 +1,55 @@
 
 import Us from '../assets/images/team.jpeg'
 import Group from '../assets/images/team (3).jpeg'
-import Team1 from '../assets/images/team (2).jpeg'
 
 
 function Team() {
   return (
-    <div> <div className="card">
-    <div className='card-body'>
-    <div className="card-shadow">
-       <div className='img-1'><img src={Group}/></div>
-       <h1>At Authentic Interior Design;</h1>
-       <p><i> We believe we can provide any solution desirable to anyone <br />
-       in any geographical area. We have a supportive and friendly team that strive to <br />
-       to achieve greatness.</i></p>
-    </div>
-    </div>
-    </div>
-    <h1>Our Team</h1>
-    <h3>We operate under a centralized management.</h3>
-    <p>We are united and accomplish work needed in due time <br />
-    We are competent and esteemed workers and move under no supervision <br />
-    we also look into our customer's comfortability.</p>
-    <div className='img-2'><img src={Us}/> 
-    <h1>In Togetherness we believe we can;</h1></div>
-    <div className='card'>
-    <div className='card-shadow'>
-    <div className='card-body' justify-content="end">
-    <div className='img-3'><img src={Team1}/> 
-    <h1>What strengthens us on a daily basis.</h1></div>
-    </div>
-    </div>
-    </div>
+    <div> 
+
+      <div className="container-fluid mb-3 d-flex flex-column align-items-center justify-content-center text-center mx-auto"
+       style={{ height: "50vh", backgroundColor: "beige" }}>
+        <div className="text-center">
+          <h3 className=" fs-1">Meet Our Team</h3>
+        </div>
+      </div>
+      <section className="container py-5 mb-5">
+        <div className="row">
+          <div className="col-md-6 col-sm-12 mb-3">
+            <h4 className="text-decoration-underline">Meet Our Team</h4>
+            <p className="fst-italic">
+              We are a world operating company. You request and we deliver.
+              Our company has been operating since 2010.{" "}
+              <br /> We have always encouraged team work and flexibility.
+              This makes us to learn new things and accomplish our goals and also get to learn alot
+              from one another.
+            </p>
+            <div className="iconsContainer">
+              <div className='icons'>
+                <div className='icon'><i class="bi bi-telephone-fill"></i>
+                <div className="row">
+                <div className="col-md-6 col-sm-12 mb-3">
+                <h6> +254 111 725 146</h6>
+                </div>
+                <div className='icon'><i class="bi bi-whatsapp"><h6>+254 111 725 146</h6></i></div>
+                <div className='icon'><i class="bi bi-geo-alt-fill"><h6>Nairobi, Donholm opposite Paswela court</h6></i></div>
+                <div className="col-md-6 col-sm-12 mb-3">
+                <img src={Us} alt="" className="img-fluid" />
+              </div>
+             </div>
+          </div>
+          </div>
+        </div>
+           
+          </div>
+
+          <div className="col-md-6 col-sm-12 mb-3">
+            <img src={Group} alt="" className="img-fluid" />
+            
+          </div>
+        </div>
+      </section>
+
 
     
 
