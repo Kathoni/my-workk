@@ -23,9 +23,8 @@ function Contact() {
                   <div className="col-lg-4">
                     <div className="card">
                       <div className="boxfront">
-                        <img src={Hilda} alt="image" />
+                        <img src={Hilda} className='object-fit-lg-contain border rounded' alt="image" />
                          <h2>Hilda</h2>
-                          <span className='fa fa-quote-left'></span>
                           <p>Im happy to have worked with such a competent group. They have such wonderfull
                             collaboration nature and a lot of experience. I would highly recommend them for any project youd like.
                             KUDOSS !!!
@@ -38,7 +37,7 @@ function Contact() {
             <div className="col-lg-4">   
                     <div className="card">
                       <div className="boxfront">
-                        <img src={Damaris} alt="image" />
+                        <img src={Damaris} className='object-fit-lg-contain border rounded' alt="image" />
                          <h2>Damaris</h2>
                           <span className='fa fa-quote-left'></span>
                           <p>
@@ -53,7 +52,7 @@ function Contact() {
             <div className="col-lg-4">
                     <div className="card">
                       <div className="boxfront">
-                        <img src={Daisy} alt="image" />
+                        <img src={Daisy} className='object-fit-lg-contain border rounded' alt="image" />
                          <h2>Daisy</h2>
                           <span className='fa fa-quote-left'></span>
                           <p>
